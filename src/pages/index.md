@@ -6,44 +6,27 @@ sidebar:
       title: Welcome
       url: '#intro'
     - is_primary: false
-      title: Who we are
+      title: 'About me '
       url: '#one'
     - is_primary: false
-      title: What we do
+      title: What I do for money
       url: '#two'
+    - is_primary: true
+      title: What I do for fun
+      url: '#three'
     - is_primary: false
       title: Get in touch
-      url: '#three'
+      url: '#four'
 sections:
   - actions:
       - is_primary: false
         is_scrolly: true
         label: Learn more
         url: '#one'
-    background_style: style2
+    background_style: style1
     component: Intro
     section_id: intro
-    subtitle: >-
-      Content Development & Marketing | Marketing Strategy | Training
-
-
-      A digital content marketing professional committed to the excellent
-      representation of brands online. Proficient in providing brilliant
-      solutions to digital problems and using storytelling to improve brand
-      positioning.
-
-
-      Works with a growth and results-oriented mindset. Skilful at creating
-      engagement strategies that strengthen the relationship between a brand and
-      her customers. Successful at increasing the online presence of various
-      brands by up to 80%.
-
-
-      Excellent contributor, team member and leader.
-
-
-      Passionate about: Tech, Diversity & Inclusion, Gender Equality, Youth
-      Empowerment, Personal Development, Leadership & Volunteering.
+    subtitle: '## The baddest bitch to ever do it.'
     title: Aisha Owolabi
     type: intro
   - background_style: style2
@@ -90,12 +73,8 @@ sections:
           aliquam turpis mauris, sed ultricies erat dapibus.
         title: Aliquam urna dapibus
     section_id: two
-    subtitle: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
-    title: What we do
+    subtitle: Here's everything you need to know. ✨
+    title: 'About Me '
     type: features
   - background_style: style1
     component: Contact
@@ -129,11 +108,7 @@ sections:
           title: LinkedIn
           url: '#'
       title: Social
-    text: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
+    text: Let's connect
     title: Get in touch
     type: contact
 menus:
