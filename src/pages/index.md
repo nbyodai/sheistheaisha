@@ -2,7 +2,7 @@
 title: Home
 sidebar:
   entries:
-    - is_primary: true
+    - is_primary: false
       title: Welcome
       url: '#intro'
     - is_primary: false
@@ -21,7 +21,7 @@ sections:
   - actions:
       - is_primary: false
         is_scrolly: true
-        label: Learn more
+        label: Get to know me
         url: '#one'
     background_style: style1
     component: Intro
@@ -32,7 +32,7 @@ sections:
   - background_style: style2
     component: Spotlights
     section_id: one
-    title: Spotlights Section
+    title: About Me
     type: spotlights
   - actions:
       - is_primary: false
@@ -74,41 +74,37 @@ sections:
         title: Aliquam urna dapibus
     section_id: two
     subtitle: Here's everything you need to know. ✨
-    title: 'About Me '
+    title: What I do for money
+    type: features
+  - background_style: style3
+    component: Features
+    section_id: two
+    title: What I do for fun
     type: features
   - background_style: style1
     component: Contact
     contact_list:
-      - text: |-
-          12345 Somewhere Road #654
-          Nashville, TN 00000-0000
-          USA
+      - text: 'Lagos, Nigeria'
         title: Address
-      - text: user@Hyperspace.tld
+      - text: sheistheaisha@gmail.com
         title: Email
         url: '#'
-      - text: (000) 000-0000
-        title: Phone
     section_id: three
     social:
       social_icons:
         - icon: fa-twitter
           title: Twitter
-          url: '#'
-        - icon: fa-facebook
-          title: Facebook
-          url: '#'
-        - icon: fa-github
-          title: GitHub
-          url: '#'
+          url: www.twitter.com/sheistheaisha
         - icon: fa-instagram
           title: Instagram
-          url: '#'
+          url: www.instagram.com/sheistheaisha
         - icon: fa-linkedin
           title: LinkedIn
-          url: '#'
+          url: www.linkedin.com/in/aisha-owolabi
       title: Social
-    text: Let's connect
+    text: >-
+      Know something, someone or somewhere I might be interested in? Let's
+      connect!
     title: Get in touch
     type: contact
 menus:
