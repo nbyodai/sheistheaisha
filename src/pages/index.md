@@ -20,13 +20,31 @@ sections:
         is_scrolly: true
         label: Learn more
         url: '#one'
-    background_style: style1
+    background_style: style2
     component: Intro
     section_id: intro
-    subtitle: |-
-      Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient  
-      col accumsan est arcu donec sed Eleifend Integer.
-    title: Hyperspace
+    subtitle: >-
+      Content Development & Marketing | Marketing Strategy | Training
+
+
+      A digital content marketing professional committed to the excellent
+      representation of brands online. Proficient in providing brilliant
+      solutions to digital problems and using storytelling to improve brand
+      positioning.
+
+
+      Works with a growth and results-oriented mindset. Skilful at creating
+      engagement strategies that strengthen the relationship between a brand and
+      her customers. Successful at increasing the online presence of various
+      brands by up to 80%.
+
+
+      Excellent contributor, team member and leader.
+
+
+      Passionate about: Tech, Diversity & Inclusion, Gender Equality, Youth
+      Empowerment, Personal Development, Leadership & Volunteering.
+    title: Aisha Owolabi
     type: intro
   - background_style: style2
     component: Spotlights
@@ -118,17 +136,6 @@ sections:
       quis lorem.
     title: Get in touch
     type: contact
-  - background_style: style1
-    component: Intro
-    section_id: intro
-    title: Intro Section 2
-    type: intro
-  - background_style: style3
-    component: Features
-    section_id: two
-    subtitle: Learning Gatsby and Netlify cms
-    title: Features Section 2
-    type: features
 menus:
   main:
     title: Home
