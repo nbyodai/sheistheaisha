@@ -1,6 +1,6 @@
 {
   "title": "She Is The Aisha",
-  "palette": "blue",
+  "palette": "black",
   "palettes": {
     "blue": {
       "sass": {
@@ -24,6 +24,14 @@
         "accent1": "#5e42a6",
         "accent2": "#5052b5",
         "accent3": "#b74e91"
+      }
+    },
+    "black": {
+      "sass": {
+        "bg": "#424245",
+        "accent1": "#424246",
+        "accent2": "#424247",
+        "accent3": "#424248"
       }
     }
   }

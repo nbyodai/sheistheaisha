@@ -74,22 +74,22 @@ sections:
   - background_style: style3
     component: Features
     features_list:
-      - icon: fa-acorn
+      - icon: fa-desktop
         text: The ides of march
         title: Section 1
-      - icon: fa-acorn
+      - icon: fa-desktop
         text: Humans of the planet
         title: Section 2
-      - icon: fa-acorn
+      - icon: fa-desktop
         text: The obstacle is the way
         title: section 3
-      - icon: fa-acorn
+      - icon: fa-desktop
         text: 4ucking 4oursome
         title: Section 4
-      - icon: fa-acorn
+      - icon: fa-desktop
         text: who is the woman in the mirror
         title: Section 5
-      - icon: fa-acorn
+      - icon: fa-desktop
         text: George W Bush
         title: section 6
     section_id: three
