@@ -3,11 +3,8 @@ title: Home
 sidebar:
   entries:
     - is_primary: false
-      title: Welcome
-      url: '#intro'
-    - is_primary: false
       title: 'About me '
-      url: '#one'
+      url: '#intro'
     - is_primary: false
       title: What I do for money
       url: '#two'
@@ -29,11 +26,6 @@ sections:
     subtitle: '## The baddest bitch to ever do it.'
     title: Aisha Owolabi
     type: intro
-  - background_style: style2
-    component: Spotlights
-    section_id: one
-    title: About Me
-    type: spotlights
   - actions:
       - is_primary: false
         is_scrolly: false
@@ -78,7 +70,26 @@ sections:
     type: features
   - background_style: style3
     component: Features
-    section_id: two
+    features_list:
+      - icon: fa-acorn
+        text: The ides of march
+        title: Section 1
+      - icon: fa-acorn
+        text: Humans of the planet
+        title: Section 2
+      - icon: fa-acorn
+        text: The obstacle is the way
+        title: section 3
+      - icon: fa-acorn
+        text: 4ucking 4oursome
+        title: Section 4
+      - icon: fa-acorn
+        text: who is the woman in the mirror
+        title: Section 5
+      - icon: fa-acorn
+        text: George W Bush
+        title: section 6
+    section_id: three
     title: What I do for fun
     type: features
   - background_style: style1
@@ -89,7 +100,7 @@ sections:
       - text: sheistheaisha@gmail.com
         title: Email
         url: '#'
-    section_id: three
+    section_id: four
     social:
       social_icons:
         - icon: fa-twitter
