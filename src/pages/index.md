@@ -19,11 +19,26 @@ sections:
       - is_primary: false
         is_scrolly: true
         label: Get to know me
-        url: '#one'
+        url: '#two'
     background_style: style1
     component: Intro
     section_id: intro
-    subtitle: '## The baddest bitch to ever do it.'
+    subtitle: >-
+      Hi! My name is Aisha Owolabi, and welcome to my website. 
+
+
+      I’m a digital content marketer with 3+ years of experience working with
+      agencies and businesses across various industries worldwide. I'm skilful
+      in using storytelling primarily to improve brand positioning and help
+      brands gain and sustain a profitable presence online.
+
+
+      I’ve created content in the past and currently for brands like Webcoupers,
+      Of A Kind Creatives (USA), Carbon, She Leads Africa, and CK Digital. 
+
+
+      I am passionate about tech, diversity & inclusion, gender equality, youth
+      empowerment, personal development, leadership & volunteering
     title: Aisha Owolabi
     type: intro
   - actions:
@@ -35,37 +50,25 @@ sections:
     component: Features
     features_list:
       - icon: fa-code
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        title: Lorem ipsum amet
+        text: "Work with me to take your content strategy to the next level. I will leverage my copywriting, storytelling, analytics, and content delivery skills to develop compelling, world-class content strategies guaranteed to increase your ROI. \U0001F4C8"
+        title: Content Strategy
       - icon: fa-lock
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        title: Aliquam sed nullam
+        text: "Writing for websites and apps requires a more technical understanding of the product along with knowledge of basic website design, marketing, SEO, brand, and user psychology. It is a blend of art and science and that is what I provide to my clients. Let’s create magic. \U0001F4DD"
+        title: Content Development
       - icon: fa-cog
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        title: Sed erat ullam corper
+        text: "Need to put together an engaging newsletter that’s worth reading? Work with me to deliver relevant content to your audience periodically, and watch your subscriber list and open rates soar.  \U0001F4E8"
+        title: Newsletter Writing
       - icon: fa-desktop
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        title: Veroeros quis lorem
+        text: "Social media is an integral part of every business’ online presence. Engage me to create a relevant and engaging content calendar to help your brand meet and exceed all its social media marketing goals. \U0001F4F1"
+        title: Social Media Marketing
       - icon: fa-chain
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        title: Urna quis bibendum
+        text: "Let’s work together to empower you or your staff with the skill sets needed to transform your products into profit and your services into sales. \U0001F469\U0001F3FE‍\U0001F3EB"
+        title: Workshops & Training
       - icon: fa-diamond
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        title: Aliquam urna dapibus
+        text: "Putting together an event and need a speaker on digital marketing? Reach out to me, and I’ll come by to share amazing digital nuggets with your audience. \U0001F3A4"
+        title: Speaking Engagements
     section_id: two
-    subtitle: Here's everything you need to know. ✨
+    subtitle: 'Interested in working with me? Here are the services I render:'
     title: What I do for money
     type: features
   - background_style: style3
