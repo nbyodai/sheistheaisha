@@ -19,7 +19,7 @@ sections:
       - is_primary: false
         is_scrolly: true
         label: Get to know me
-        url: '#two'
+        url: '#money'
     background_style: style1
     component: Intro
     section_id: about
