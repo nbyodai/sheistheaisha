@@ -4,16 +4,16 @@ sidebar:
   entries:
     - is_primary: false
       title: 'About me '
-      url: '#intro'
+      url: '#about'
     - is_primary: false
       title: What I do for money
-      url: '#two'
+      url: '#money'
     - is_primary: true
       title: What I do for fun
-      url: '#three'
+      url: '#fun'
     - is_primary: false
       title: Get in touch
-      url: '#four'
+      url: '#contact'
 sections:
   - actions:
       - is_primary: false
@@ -22,7 +22,7 @@ sections:
         url: '#two'
     background_style: style1
     component: Intro
-    section_id: intro
+    section_id: about
     subtitle: >-
       Hi! My name is Aisha Owolabi, and welcome to my website. 
 
@@ -41,7 +41,11 @@ sections:
       empowerment, personal development, leadership & volunteering
     title: Aisha Owolabi
     type: intro
-  - actions: []
+  - actions:
+      - is_primary: false
+        is_scrolly: true
+        label: Work With Me
+        url: '#contact'
     background_style: style3
     component: Features
     features_list:
@@ -63,11 +67,16 @@ sections:
       - icon: fa-diamond
         text: "Putting together an event and need a speaker on digital marketing? Reach out to me, and I’ll come by to share amazing digital nuggets with your audience. \U0001F3A4"
         title: Speaking Engagements
-    section_id: two
+    section_id: money
     subtitle: 'Interested in working with me? Here are the services I render:'
     title: What I do for money
     type: features
-  - background_style: style3
+  - actions:
+      - is_primary: false
+        is_scrolly: true
+        label: Connect with me
+        url: '#contact'
+    background_style: style3
     component: Features
     features_list:
       - icon: fa-desktop
@@ -91,7 +100,7 @@ sections:
       - icon: fa-desktop
         text: "I get on my social media platforms (especially Twitter) to relax and catch up on what’s going on in the world around me. I love how I can learn from and inform people in one place. \U0001F4F1"
         title: Social Media
-    section_id: three
+    section_id: fun
     subtitle: >-
       Every hard-worker must chill sometimes, no? Here are some things you’ll
       catch me doing when I’m not tapping away on my computer:
@@ -105,7 +114,7 @@ sections:
       - text: sheistheaisha@gmail.com
         title: Email
         url: '#'
-    section_id: four
+    section_id: contact
     social:
       social_icons:
         - icon: fa-twitter
@@ -119,8 +128,8 @@ sections:
           url: www.linkedin.com/in/aisha-owolabi
       title: Social
     text: >-
-      Know something, someone or somewhere I might be interested in? Let's
-      connect!
+      Working on a cool project you need my services for? Or you simply want to
+      recommend a good movie? Fill your details here and let’s connect!
     title: Get in touch
     type: contact
 menus:
