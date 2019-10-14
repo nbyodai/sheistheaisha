@@ -41,11 +41,7 @@ sections:
       empowerment, personal development, leadership & volunteering
     title: Aisha Owolabi
     type: intro
-  - actions:
-      - is_primary: false
-        is_scrolly: false
-        label: Learn more
-        url: /generic
+  - actions: []
     background_style: style3
     component: Features
     features_list:
@@ -75,24 +71,30 @@ sections:
     component: Features
     features_list:
       - icon: fa-desktop
-        text: The ides of march
-        title: Section 1
+        text: "Food is super important to me! I love trying new food, amazing cocktails, and experiencing different restaurants. \U0001F379"
+        title: Restaurant Hopping
       - icon: fa-desktop
-        text: Humans of the planet
-        title: Section 2
+        text: "One of my favourite phrases is this one; “The earth has music for those who listen.” I love nature and documenting the beauty of it everywhere I go. \U0001F3DE"
+        title: Nature Photography
       - icon: fa-desktop
-        text: The obstacle is the way
-        title: section 3
+        text: >-
+          The world is so far and wide and I've only seen a tiny bit of it all.
+          I love travelling, but sadly I haven’t gotten to travel as much as I'd
+          like. I'm working on it though. ✈️
+        title: Travel
       - icon: fa-desktop
-        text: 4ucking 4oursome
-        title: Section 4
+        text: "Online shopping has my heart. I love how with just 3 to 10 taps, my order is placed and on the way to me. My favourite app for shopping right now is ASOS. \U0001F6CD"
+        title: Shopping
       - icon: fa-desktop
-        text: who is the woman in the mirror
-        title: Section 5
+        text: "I love movies, and I will watch pretty much anything, so far it interests me at first sight. However, I don’t like watching series. If it’s not Stranger Things or Brooklyn 99, forget it. \U0001F3AC"
+        title: Movies
       - icon: fa-desktop
-        text: George W Bush
-        title: section 6
+        text: "I get on my social media platforms (especially Twitter) to relax and catch up on what’s going on in the world around me. I love how I can learn from and inform people in one place. \U0001F4F1"
+        title: Social Media
     section_id: three
+    subtitle: >-
+      Every hard-worker must chill sometimes, no? Here are some things you’ll
+      catch me doing when I’m not tapping away on my computer:
     title: What I do for fun
     type: features
   - background_style: style1
