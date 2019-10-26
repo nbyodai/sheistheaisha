@@ -70,7 +70,7 @@ sections:
       - icon: fa-hashtag
         text: "Social media is an integral part of every business’ online presence. Engage me to create a relevant and engaging content calendar to help your brand meet and exceed all its social media marketing goals. \U0001F4F1"
         title: Social Media Marketing
-      - icon: fa-user-chart
+      - icon: fa-chalkboard-teacher
         text: "Let’s work together to empower you or your staff with the skill sets needed to transform your products into profit and your services into sales. \U0001F469\U0001F3FE‍\U0001F3EB"
         title: Workshops & Training
       - icon: fa-microphone
@@ -85,31 +85,31 @@ sections:
     type: features
   - actions:
       - is_primary: false
-        is_scrolly: true
+        is_scrolly: false
         label: Connect with me
         url: '#contact'
     background_style: style3
     component: Features
     features_list:
-      - icon: fa-desktop
-        text: "Food is super important to me! I love trying new food, amazing cocktails, and experiencing different restaurants. \U0001F379"
+      - icon: fa-hamburger
+        text: "I love trying new food, amazing cocktails, and experiencing different restaurants. Sometimes, I find myself daydreaming about food. It's that serious.\U0001F379"
         title: Restaurant Hopping
-      - icon: fa-desktop
+      - icon: fa-camera-alt
         text: "One of my favourite phrases is this one; “The earth has music for those who listen.” I love nature and documenting the beauty of it everywhere I go. \U0001F3DE"
         title: Nature Photography
-      - icon: fa-desktop
+      - icon: fa-plane-departure
         text: >-
           The world is so far and wide and I've only seen a tiny bit of it all.
           I love travelling, but sadly I haven’t gotten to travel as much as I'd
           like. I'm working on it though. ✈️
         title: Travel
-      - icon: fa-desktop
+      - icon: fa-shopping-cart
         text: "Online shopping has my heart. I love how with just 3 to 10 taps, my order is placed and on the way to me. My favourite app for shopping right now is ASOS. \U0001F6CD"
-        title: Shopping
-      - icon: fa-desktop
+        title: Online Shopping
+      - icon: fa-youtube
         text: "I love movies, and I will watch pretty much anything, so far it interests me at first sight. However, I don’t like watching series. If it’s not Stranger Things or Brooklyn 99, forget it. \U0001F3AC"
         title: Movies
-      - icon: fa-desktop
+      - icon: fa-twitter
         text: "I get on my social media platforms (especially Twitter) to relax and catch up on what’s going on in the world around me. I love how I can learn from and inform people in one place. \U0001F4F1"
         title: Social Media
     section_id: fun
