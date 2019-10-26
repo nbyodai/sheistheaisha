@@ -1,7 +1,4 @@
 landing_style: style1-alt
 alt_style: alt
-copyright: "&copy; Aisha Owolabi. 2019"
-links:
-  - text: Made with Stackbit & Netlify
-    url: "https://www.stackbit.com"
-    new_window: true
+copyright: '&copy; Aisha Owolabi. 2019'
+links: []
