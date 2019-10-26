@@ -120,7 +120,10 @@ sections:
       title: Social
     text: >-
       Working on a cool project you need my services for? Or you simply want to
-      recommend a good movie? Fill your details here and let’s connect!
+      recommend a good movie?
+
+
+      Fill your details here and let’s connect!
     title: Get in touch
     type: contact
 menus:
