@@ -16,7 +16,7 @@ sidebar:
       url: '#contact'
 sections:
   - actions:
-      - is_primary: true
+      - is_primary: false
         is_scrolly: true
         label: Get to know me
         url: '#money'
@@ -24,6 +24,9 @@ sections:
     component: Intro
     section_id: about
     subtitle: >-
+      ![Aisha Owolabi](/images/sheistheaisha.png "sheistheaisha")
+
+
       Welcome to my website!
 
 
@@ -55,7 +58,7 @@ sections:
     background_style: style3
     component: Features
     features_list:
-      - icon: <i class="fal fa-cogs"></i>
+      - icon: fa-cogs
         text: "Work with me to take your content strategy to the next level. I will leverage my copywriting, storytelling, analytics, and content delivery skills to develop compelling, world-class content strategies guaranteed to increase your ROI. \U0001F4C8"
         title: Content Strategy
       - icon: fa-lock
