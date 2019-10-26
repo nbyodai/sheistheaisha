@@ -16,7 +16,7 @@ sidebar:
       url: '#contact'
 sections:
   - actions:
-      - is_primary: false
+      - is_primary: true
         is_scrolly: true
         label: Get to know me
         url: '#money'
@@ -48,7 +48,7 @@ sections:
     title: 'Hey there! '
     type: intro
   - actions:
-      - is_primary: false
+      - is_primary: true
         is_scrolly: false
         label: Work With Me
         url: '#contact'
@@ -81,7 +81,7 @@ sections:
     title: What I do for money
     type: features
   - actions:
-      - is_primary: false
+      - is_primary: true
         is_scrolly: false
         label: Connect with me
         url: '#contact'

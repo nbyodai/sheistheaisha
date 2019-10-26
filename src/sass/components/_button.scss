@@ -73,8 +73,8 @@ button,
   }
 
   &.primary {
-    background-color: _palette(fg-bold);
-    color: _palette(bg) !important;
+    background-color: _palette(fg-bold3);
+    color: _palette(fg-bold) !important;
 
     &:after {
       display: none;

@@ -28,7 +28,7 @@ export default class Contact extends React.Component {
                                     </div>
                                 </div>
                                 <ul className="actions">
-                                    <li><Link to="" className="button submit">Send Message</Link></li>
+                                    <li><Link to="" className="button primary submit">Send Message</Link></li>
                                 </ul>
                             </form>
                         </section>
