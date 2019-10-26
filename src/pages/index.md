@@ -2,7 +2,7 @@
 title: Home
 sidebar:
   entries:
-    - is_primary: false
+    - is_primary: true
       title: 'About me '
       url: '#about'
     - is_primary: false
@@ -23,39 +23,15 @@ sections:
     background_style: style1
     component: Intro
     section_id: about
-    subtitle: >-
-      ![Aisha Owolabi](/images/sheistheaisha.png "sheistheaisha")
-
-
-      Welcome to my website!
-
-
-      I'm Aisha Owolabi, a fun-loving Digital Content Marketer.
-
-
-      I believe the art of storytelling is a magical tool, so I leverage it to
-      help brands gain and sustain a profitable presence online. 
-
-
-      In my 3+ years of experience sharing the good-news that is my work with
-      agencies and businesses across various industries worldwide, I've had the
-      opportunity to create magic with a number of remarkable brands. Some of
-      them are: Webcoupers, Of A Kind Creatives (USA), Carbon (Paylater), She
-      Leads Africa, and CK Digital. 
-
-
-      When I'm not brainstorming ideas for the next great piece of content,
-      you'll catch me diving into my passions which are: tech, diversity &
-      inclusion, gender equality, youth empowerment, personal development,
-      leadership & volunteering.
-    title: 'Hello! '
+    subtitle: "![Aisha Owolabi](/images/sheistheaisha.png \"sheistheaisha\")\n\nWelcome to my website \U0001F601\n\nI'm Aisha Owolabi, a fun-loving Digital Content Marketer.\n\nI believe the art of storytelling is a magical tool, so I leverage it to help brands gain and sustain a profitable presence online. \n\nIn my 3+ years of experience sharing the good-news that is my work with agencies and businesses across various industries worldwide, I've had the opportunity to create magic with a number of remarkable brands. Some of them are: Webcoupers, Of A Kind Creatives (USA), Carbon (Paylater), She Leads Africa, and CK Digital. \n\nWhen I'm not brainstorming ideas for the next great piece of content, you'll catch me diving into my passions which are: tech, diversity & inclusion, gender equality, youth empowerment, personal development, leadership & volunteering."
+    title: 'Hey there! '
     type: intro
   - actions:
       - is_primary: false
         is_scrolly: false
         label: Work With Me
         url: '#contact'
-    background_style: style3
+    background_style: style2
     component: Features
     features_list:
       - icon: fa-cog
@@ -91,13 +67,13 @@ sections:
     background_style: style3
     component: Features
     features_list:
-      - icon: fa-hamburger
+      - icon: fa-pizza-slice
         text: "I love trying new food, amazing cocktails, and experiencing different restaurants. Sometimes, I find myself daydreaming about food. It's that serious.\U0001F379"
         title: Restaurant Hopping
-      - icon: fa-camera-alt
+      - icon: fa-camera
         text: "One of my favourite phrases is this one; “The earth has music for those who listen.” I love nature and documenting the beauty of it everywhere I go. \U0001F3DE"
         title: Nature Photography
-      - icon: fa-plane-departure
+      - icon: fa-plane
         text: >-
           The world is so far and wide and I've only seen a tiny bit of it all.
           I love travelling, but sadly I haven’t gotten to travel as much as I'd
@@ -106,7 +82,7 @@ sections:
       - icon: fa-shopping-cart
         text: "Online shopping has my heart. I love how with just 3 to 10 taps, my order is placed and on the way to me. My favourite app for shopping right now is ASOS. \U0001F6CD"
         title: Online Shopping
-      - icon: fa-youtube
+      - icon: fa-film
         text: "I love movies, and I will watch pretty much anything, so far it interests me at first sight. However, I don’t like watching series. If it’s not Stranger Things or Brooklyn 99, forget it. \U0001F3AC"
         title: Movies
       - icon: fa-twitter
@@ -114,11 +90,14 @@ sections:
         title: Social Media
     section_id: fun
     subtitle: >-
-      Every hard-worker must chill sometimes, no? Here are some things you’ll
-      catch me doing when I’m not tapping away on my computer:
+      Every hard-worker must chill sometimes, no?
+
+
+      Here are some things you’ll catch me doing when I’m not tapping away on my
+      computer:
     title: What I do for fun
     type: features
-  - background_style: style1
+  - background_style: style4
     component: Contact
     contact_list:
       - text: 'Lagos, Nigeria'
