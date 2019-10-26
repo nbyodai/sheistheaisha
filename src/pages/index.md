@@ -20,7 +20,7 @@ sections:
         is_scrolly: true
         label: Get to know me
         url: '#money'
-    background_style: style1
+    background_style: style4
     component: Intro
     section_id: about
     subtitle: "![Aisha Owolabi](/images/sheistheaisha.png \"sheistheaisha\")\n\nWelcome to my website \U0001F601\n\nI'm Aisha Owolabi, a fun-loving Digital Content Marketer.\n\nI believe the art of storytelling is a magical tool, so I leverage it to help brands gain and sustain a profitable presence online. \n\nIn my 3+ years of experience sharing the good-news that is my work with agencies and businesses across various industries worldwide, I've had the opportunity to create magic with a number of remarkable brands. Some of them are: Webcoupers, Of A Kind Creatives (USA), Carbon (Paylater), She Leads Africa, and CK Digital. \n\nWhen I'm not brainstorming ideas for the next great piece of content, you'll catch me diving into my passions which are: tech, diversity & inclusion, gender equality, youth empowerment, personal development, leadership & volunteering."
@@ -31,7 +31,7 @@ sections:
         is_scrolly: false
         label: Work With Me
         url: '#contact'
-    background_style: style2
+    background_style: style4
     component: Features
     features_list:
       - icon: fa-cog
@@ -64,7 +64,7 @@ sections:
         is_scrolly: false
         label: Connect with me
         url: '#contact'
-    background_style: style3
+    background_style: style4
     component: Features
     features_list:
       - icon: fa-cutlery
