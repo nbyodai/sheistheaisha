@@ -51,7 +51,7 @@ export default class Contact extends React.Component {
                                         <h3>{_.get(this.props, 'section.social.title')}</h3>
                                         <ul className="icons">
                                             {_.map(_.get(this.props, 'section.social.social_icons'), (item, item_idx) => (
-                                                <li key={item_idx}><Link to={_.get(item, 'url')} className={_.get(item, 'icon')}><span className="label">{_.get(item, 'title')}</span></Link></li>
+                                                <li key={item_idx}><Link target="_blank" to={_.get(item, 'url')} className={_.get(item, 'icon')}><span className="label">{_.get(item, 'title')}</span></Link></li>
                                             ))}
                                         </ul>
                                     </li>

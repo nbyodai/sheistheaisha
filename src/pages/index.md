@@ -131,13 +131,13 @@ sections:
       social_icons:
         - icon: fa-twitter
           title: Twitter
-          url: www.twitter.com/sheistheaisha
+          url: //www.twitter.com/sheistheaisha
         - icon: fa-instagram
           title: Instagram
-          url: www.instagram.com/sheistheaisha
+          url: //www.instagram.com/sheistheaisha
         - icon: fa-linkedin
           title: LinkedIn
-          url: www.linkedin.com/in/aisha-owolabi
+          url: //www.linkedin.com/in/aisha-owolabi
       title: Social
     text: >-
       Working on a cool project you need my services for? Or you simply want to
