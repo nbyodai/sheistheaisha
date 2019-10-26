@@ -46,7 +46,7 @@ sections:
       - icon: fa-hashtag
         text: "Social media is an integral part of every business’ online presence. Engage me to create a relevant and engaging content calendar to help your brand meet and exceed all its social media marketing goals. \U0001F4F1"
         title: Social Media Marketing
-      - icon: fa-users-class
+      - icon: fa-hashtag
         text: "Let’s work together to empower you or your staff with the skill sets needed to transform your products into profit and your services into sales. \U0001F469\U0001F3FE‍\U0001F3EB"
         title: Workshops & Training
       - icon: fa-microphone
