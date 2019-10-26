@@ -52,7 +52,7 @@ sections:
     type: intro
   - actions:
       - is_primary: false
-        is_scrolly: true
+        is_scrolly: false
         label: Work With Me
         url: '#contact'
     background_style: style3
@@ -61,19 +61,19 @@ sections:
       - icon: fa-cog
         text: "Work with me to take your content strategy to the next level. I will leverage my copywriting, storytelling, analytics, and content delivery skills to develop compelling, world-class content strategies guaranteed to increase your ROI. \U0001F4C8"
         title: Content Strategy
-      - icon: fa-lock
+      - icon: fa-pencil
         text: "Writing for websites and apps requires a more technical understanding of the product along with knowledge of basic website design, marketing, SEO, brand, and user psychology. It is a blend of art and science and that is what I provide to my clients. Let’s create magic. \U0001F4DD"
         title: Content Development
-      - icon: fa-cog
+      - icon: fa-envelope-open
         text: "Need to put together an engaging newsletter that’s worth reading? Work with me to deliver relevant content to your audience periodically, and watch your subscriber list and open rates soar.  \U0001F4E8"
         title: Newsletter Writing
-      - icon: fa-desktop
+      - icon: fa-hashtag
         text: "Social media is an integral part of every business’ online presence. Engage me to create a relevant and engaging content calendar to help your brand meet and exceed all its social media marketing goals. \U0001F4F1"
         title: Social Media Marketing
-      - icon: fa-chain
+      - icon: fa-user-chart
         text: "Let’s work together to empower you or your staff with the skill sets needed to transform your products into profit and your services into sales. \U0001F469\U0001F3FE‍\U0001F3EB"
         title: Workshops & Training
-      - icon: fa-diamond
+      - icon: fa-microphone
         text: "Putting together an event and need a speaker on digital marketing? Reach out to me, and I’ll come by to share amazing digital nuggets with your audience. \U0001F3A4"
         title: Speaking Engagements
     section_id: money
