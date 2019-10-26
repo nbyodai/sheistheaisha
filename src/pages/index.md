@@ -16,7 +16,7 @@ sidebar:
       url: '#contact'
 sections:
   - actions:
-      - is_primary: false
+      - is_primary: true
         is_scrolly: true
         label: Get to know me
         url: '#money'
@@ -24,22 +24,28 @@ sections:
     component: Intro
     section_id: about
     subtitle: >-
-      Hi! My name is Aisha Owolabi, and welcome to my website. 
+      Welcome to my website!
 
 
-      I’m a digital content marketer with 3+ years of experience working with
-      agencies and businesses across various industries worldwide. I'm skilful
-      in using storytelling primarily to improve brand positioning and help
-      brands gain and sustain a profitable presence online.
+      I'm Aisha Owolabi, a fun-loving Digital Content Marketer.
 
 
-      I’ve created content in the past and currently for brands like Webcoupers,
-      Of A Kind Creatives (USA), Carbon, She Leads Africa, and CK Digital. 
+      I believe the art of storytelling is a magical tool, so I leverage it to
+      help brands gain and sustain a profitable presence online. 
 
 
-      I am passionate about tech, diversity & inclusion, gender equality, youth
-      empowerment, personal development, leadership & volunteering
-    title: Aisha Owolabi
+      In my 3+ years of experience sharing the good-news that is my work with
+      agencies and businesses across various industries worldwide, I've had the
+      opportunity to create magic with a number of remarkable brands. Some of
+      them are: Webcoupers, Of A Kind Creatives (USA), Carbon (Paylater), She
+      Leads Africa, and CK Digital. 
+
+
+      When I'm not brainstorming ideas for the next great piece of content,
+      you'll catch me diving into my passions which are: tech, diversity &
+      inclusion, gender equality, youth empowerment, personal development,
+      leadership & volunteering.
+    title: 'Hello! '
     type: intro
   - actions:
       - is_primary: false
@@ -49,7 +55,7 @@ sections:
     background_style: style3
     component: Features
     features_list:
-      - icon: fa-code
+      - icon: <i class="fal fa-cogs"></i>
         text: "Work with me to take your content strategy to the next level. I will leverage my copywriting, storytelling, analytics, and content delivery skills to develop compelling, world-class content strategies guaranteed to increase your ROI. \U0001F4C8"
         title: Content Strategy
       - icon: fa-lock
@@ -68,7 +74,10 @@ sections:
         text: "Putting together an event and need a speaker on digital marketing? Reach out to me, and I’ll come by to share amazing digital nuggets with your audience. \U0001F3A4"
         title: Speaking Engagements
     section_id: money
-    subtitle: 'Interested in working with me? Here are the services I render:'
+    subtitle: |-
+      Interested in working with me?
+
+      Here are the services I render:
     title: What I do for money
     type: features
   - actions:
