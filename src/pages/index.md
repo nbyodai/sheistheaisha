@@ -58,7 +58,7 @@ sections:
     background_style: style3
     component: Features
     features_list:
-      - icon: fa-cogs
+      - icon: fa-cog
         text: "Work with me to take your content strategy to the next level. I will leverage my copywriting, storytelling, analytics, and content delivery skills to develop compelling, world-class content strategies guaranteed to increase your ROI. \U0001F4C8"
         title: Content Strategy
       - icon: fa-lock
