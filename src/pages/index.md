@@ -4,22 +4,22 @@ sidebar:
   entries:
     - is_primary: true
       title: 'About me '
-      url: /about
+      url: '#about'
     - is_primary: false
       title: What I do for money
-      url: /money
+      url: '#money'
     - is_primary: true
       title: What I do for fun
-      url: /fun
+      url: '#fun'
     - is_primary: false
       title: Get in touch
-      url: /contact
+      url: '#contact'
 sections:
   - actions:
       - is_primary: true
         is_scrolly: true
         label: Get to know me
-        url: money
+        url: '#money'
     background_style: style4
     component: Intro
     section_id: about
@@ -51,7 +51,7 @@ sections:
       - is_primary: true
         is_scrolly: false
         label: Work With Me
-        url: contact
+        url: '#contact'
     background_style: style4
     component: Features
     features_list:
@@ -84,7 +84,7 @@ sections:
       - is_primary: true
         is_scrolly: false
         label: Connect with me
-        url: contact
+        url: '#contact'
     background_style: style4
     component: Features
     features_list:
