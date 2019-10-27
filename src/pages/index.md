@@ -123,7 +123,7 @@ sections:
     contact_list:
       - text: 'Lagos, Nigeria'
         title: Address
-      - text: sheistheaisha@gmail.com
+      - text: hello@sheistheaisha.com
         title: Email
         url: '#'
     section_id: contact
