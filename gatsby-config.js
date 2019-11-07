@@ -1,3 +1,5 @@
+var proxy = require("http-proxy-middleware")
+
 module.exports = {
     pathPrefix: '/',
     siteMetadata: require('./site-metadata.json'),
@@ -38,5 +40,16 @@ module.exports = {
                 menus: require('./src/data/menus.json'),
             }
         }
-    ]
+    ],
+    developMiddleware: app => {
+        app.use(
+            "/.netlify/functions/",
+            proxy({
+                target: "http://localhost:8000",
+                pathRewrite: {
+                    "/.netlify/functions/": "",
+                }
+            })
+        )
+    }
 };

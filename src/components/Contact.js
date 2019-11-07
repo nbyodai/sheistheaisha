@@ -3,7 +3,31 @@ import _ from 'lodash';
 
 import {markdownify, Link, htmlToReact} from '../utils';
 
+
 export default class Contact extends React.Component {
+
+    sendEmail() {
+        new Promise((resolve, reject) => {
+            fetch("/.netlify/functions/send-mail", {
+                method: "POST",
+                body: JSON.stringify({
+                  name: "chibuzor",
+                  email: "obiora",
+                  message: ""
+                }),
+                headers: {
+                  "Content-Type": "application/json"
+                }
+              })
+                .then(response => {
+                    resolve(response);
+              }).catch((err) => {
+                  reject(err)
+              })
+        })
+       
+    }
+ 
     render() {
         return (
             <section id={_.get(this.props, 'section.section_id')} className={'wrapper ' + _.get(this.props, 'section.background_style') + ' fade-up'}>
@@ -12,7 +36,6 @@ export default class Contact extends React.Component {
                     {markdownify(_.get(this.props, 'section.text'))}
                     <div className="split style1">
                         <section>
-                            <form method="post" action="#">
                                 <div className="fields">
                                     <div className="field half">
                                         <label htmlFor="name">Name</label>
@@ -28,9 +51,13 @@ export default class Contact extends React.Component {
                                     </div>
                                 </div>
                                 <ul className="actions">
-                                    <li><Link to="" className="button primary submit">Send Message</Link></li>
+                                    <button 
+                                        onClick={this.sendEmail}
+                                        className="button primary submit" type="button"
+                                    >
+                                        Send Message-X
+                                    </button>
                                 </ul>
-                            </form>
                         </section>
                         <section>
                             <ul className="contact">
