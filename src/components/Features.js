@@ -15,7 +15,9 @@ export default class Features extends React.Component {
                             <section key={feature_idx}>
                                 <span className={'icon major ' + _.get(feature, 'icon')}/>
                                 <h3>{_.get(feature, 'title')}</h3>
-                                {markdownify(_.get(feature, 'text'))}
+                                <div className="feature-description-text">
+                                    {markdownify(_.get(feature, 'text'))}
+                                </div>
                             </section>
                         ))}
                     </div>
