@@ -6,25 +6,50 @@ import {markdownify, Link, htmlToReact} from '../utils';
 
 export default class Contact extends React.Component {
 
-    sendEmail() {
-        new Promise((resolve, reject) => {
-            fetch("/.netlify/functions/send-mail", {
-                method: "POST",
-                body: JSON.stringify({
-                  name: "chibuzor",
-                  email: "obiora",
-                  message: ""
-                }),
-                headers: {
-                  "Content-Type": "application/json"
-                }
-              })
-                .then(response => {
-                    resolve(response);
-              }).catch((err) => {
-                  reject(err)
-              })
-        })
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: '',
+        }
+        this.handleChange = this.handleChange.bind(this);
+        this.sendEmail = this.sendEmail.bind(this);
+    }
+
+    handleChange(event) {
+        console.log(event.target.name)
+        this.setState({
+            [event.target.name]: event.target.value
+        });
+    }
+    
+    sendEmail(event) {
+        event.preventDefault();
+        const { name, email, message } = this.state
+        if(!name || !email || !message) {
+            alert('Please provide all inputs to form before submitting')
+            return;
+        }
+        
+        fetch("/.netlify/functions/send-mail", {
+            method: "POST",
+            body: JSON.stringify({ 
+                email,
+                name,
+                message
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+            })
+            .then(response => response.json())
+            .then(response => {
+                console.log(response)
+            })
+            .catch((err) => {
+                console.error(err);
+            })
        
     }
  
@@ -39,23 +64,23 @@ export default class Contact extends React.Component {
                                 <div className="fields">
                                     <div className="field half">
                                         <label htmlFor="name">Name</label>
-                                        <input type="text" name="name" id="name" />
+                                        <input type="text" name="name" id="name" value={this.state.name} onChange={this.handleChange} />
                                     </div>
                                     <div className="field half">
                                         <label htmlFor="email">Email</label>
-                                        <input type="text" name="email" id="email" />
+                                        <input type="text" name="email" id="email" value={this.state.email} onChange={this.handleChange} />
                                     </div>
                                     <div className="field">
                                         <label htmlFor="message">Message</label>
-                                        <textarea name="message" id="message" rows="5" />
+                                        <textarea name="message" id="message" rows="5" value={this.state.message} onChange={this.handleChange} />
                                     </div>
                                 </div>
-                                <ul className="actions">
+                                <ul className="actions" style={{ marginTop: "2em" }}>
                                     <button 
                                         onClick={this.sendEmail}
-                                        className="button primary submit" type="button"
+                                        className="button primary submit" type="submit"
                                     >
-                                        Send Message-X
+                                        Send Message
                                     </button>
                                 </ul>
                         </section>
