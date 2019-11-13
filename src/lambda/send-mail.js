@@ -24,14 +24,23 @@ export function handler(event, context, callback) {
   };
 
   transporter.sendMail(mailOptions, function(err, info) {
-    if (err) console.error({ err });
-    else console.log({ info });
-  });
-
-  callback(null, {
-    statusCode: 200,
-    body: JSON.stringify({
-      msg: 'sent email'
-    })
+    if (err) {
+      console.error({ err });
+      callback(null, {
+        statusCode: 200,
+        body: JSON.stringify({
+          error: err
+        })
+      });
+    }
+    else {
+      console.log({ info })
+      callback(null, {
+        statusCode: 200,
+        body: JSON.stringify({
+          info: 'Success'
+        })
+      });
+    }
   });
 }
