@@ -3,7 +3,56 @@ import _ from 'lodash';
 
 import {markdownify, Link, htmlToReact} from '../utils';
 
+
 export default class Contact extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: '',
+        }
+        this.handleChange = this.handleChange.bind(this);
+        this.sendEmail = this.sendEmail.bind(this);
+    }
+
+    handleChange(event) {
+        console.log(event.target.name)
+        this.setState({
+            [event.target.name]: event.target.value
+        });
+    }
+    
+    sendEmail(event) {
+        event.preventDefault();
+        const { name, email, message } = this.state
+        if(!name || !email || !message) {
+            alert('Please provide all inputs to form before submitting')
+            return;
+        }
+        
+        fetch("/.netlify/functions/send-mail", {
+            method: "POST",
+            body: JSON.stringify({ 
+                email,
+                name,
+                message
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+            })
+            .then(response => response.json())
+            .then(response => {
+                console.log(response)
+            })
+            .catch((err) => {
+                console.error(err);
+            })
+       
+    }
+ 
     render() {
         return (
             <section id={_.get(this.props, 'section.section_id')} className={'wrapper ' + _.get(this.props, 'section.background_style') + ' fade-up'}>
@@ -12,25 +61,28 @@ export default class Contact extends React.Component {
                     {markdownify(_.get(this.props, 'section.text'))}
                     <div className="split style1">
                         <section>
-                            <form method="post" action="#">
                                 <div className="fields">
                                     <div className="field half">
                                         <label htmlFor="name">Name</label>
-                                        <input type="text" name="name" id="name" />
+                                        <input type="text" name="name" id="name" value={this.state.name} onChange={this.handleChange} />
                                     </div>
                                     <div className="field half">
                                         <label htmlFor="email">Email</label>
-                                        <input type="text" name="email" id="email" />
+                                        <input type="text" name="email" id="email" value={this.state.email} onChange={this.handleChange} />
                                     </div>
                                     <div className="field">
                                         <label htmlFor="message">Message</label>
-                                        <textarea name="message" id="message" rows="5" />
+                                        <textarea name="message" id="message" rows="5" value={this.state.message} onChange={this.handleChange} />
                                     </div>
                                 </div>
-                                <ul className="actions">
-                                    <li><Link to="" className="button primary submit">Send Message</Link></li>
+                                <ul className="actions" style={{ marginTop: "2em" }}>
+                                    <button 
+                                        onClick={this.sendEmail}
+                                        className="button primary submit" type="submit"
+                                    >
+                                        Send Message
+                                    </button>
                                 </ul>
-                            </form>
                         </section>
                         <section>
                             <ul className="contact">
