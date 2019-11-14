@@ -3,9 +3,9 @@ const nodemailer = require("nodemailer");
 export function handler(event, context, callback) {
   const body = JSON.parse(event.body);
   
-  const EMAIL_USERNAME = 'sheistheaisha@gmail.com' // process.env.EMAIL_USERNAME
-  const EMAIL_PASSWORD = 'oretade14' // process.env.EMAIL_PASSWORD
-  const HELLO_EMAIL = 'sheistheaisha@gmail.com' //process.env.HELLO_EMAIL
+  const EMAIL_USERNAME = process.env.EMAIL_USERNAME
+  const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD
+  const HELLO_EMAIL = process.env.HELLO_EMAIL
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
