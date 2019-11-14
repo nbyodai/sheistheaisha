@@ -9,5 +9,5 @@ if [[ -z "${STACKBIT_API_KEY}" ]]; then
 else
     npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5d8f12c137285900128e99d4 
 fi
-gatsby build
+npm run build
 ./inject-netlify-identity-widget.js public
