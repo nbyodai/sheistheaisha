@@ -138,6 +138,9 @@ sections:
         - icon: fa-linkedin
           title: LinkedIn
           url: //www.linkedin.com/in/aisha-owolabi
+        - icon: fa-medium
+          title: Medium
+          url: //www.medium.com/@sheistheaisha
       title: Social
     text: >-
       Working on a cool project you need my services for? Or you simply want to
