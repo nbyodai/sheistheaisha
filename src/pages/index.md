@@ -146,7 +146,7 @@ sections:
         title: Address
       - text: hello@sheistheaisha.com
         title: Email
-        url: ""
+        url: hello@sheistheaisha.com
     section_id: contact
     social:
       social_icons:
