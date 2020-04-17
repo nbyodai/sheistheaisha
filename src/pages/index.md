@@ -27,16 +27,19 @@ sections:
       ![Aisha Owolabi](/images/sheistheaisha.png "sheistheaisha")
 
 
-      I'm Aisha, a fun-loving Digital Content Marketer.
+      I’m Aisha, a fun-loving content marketer, storyteller & branding enthusiast. 
 
 
-      I believe the art of storytelling is a magical tool, so I leverage it to help brands gain and sustain a profitable presence online. 
+      I help brands break down complex ideas into simple content pieces that are easily digestible and solves real problems.
 
 
-      In my 4+ years of experience sharing the good-news that is my work with agencies and businesses across various industries worldwide, I've had the opportunity to create magic with a number of remarkable brands. Some of them are: Webcoupers, Of A Kind Creatives (USA), Carbon (Paylater), She Leads Africa, and CK Digital. 
+      My ideal process is “Agile Content Process” which encompasses research, content strategy, data analysis and iteration. 
 
 
-      When I'm not brainstorming ideas for the next great piece of content, you'll catch me diving into my passions which are: tech, diversity & inclusion, gender equality, youth empowerment, personal development, leadership & volunteering.
+      In my 4+ years of experience, I've created magic with several remarkable brands. Some of them are: [Webcoupers](www.webcoupers.com), [Carbon](www.getcarbon.co), [Of A Kind Creatives](www.ofakindcreatives.com) (USA), [She Leads Africa](www.sheleadsafrica.org) and [CK Digital](www.ckdigital.net).
+
+
+      I am passionate about diversity & inclusion, gender equality, and women empowerment & I enjoy sharing my thoughts via social media and talks.
     title: "Hey there! "
     type: intro
   - actions:
@@ -54,10 +57,10 @@ sections:
           guaranteed to increase your ROI. 📈
         title: Content Strategy
       - icon: fa-pencil
-        text: Writing for websites and apps requires a more technical understanding of
-          the product along with knowledge of basic website design, marketing,
-          SEO, brand, and user psychology. It is a blend of art and science and
-          that is what I provide to my clients. Let’s create magic. 📝
+        text: Writing for websites and apps require a more technical understanding of
+          the product, along with basic knowledge of user experience, user
+          psychology, marketing and SEO. It is a blend of art & science, and
+          that is what I provide to my clients. 📝
         title: Content Development
       - icon: fa-envelope-open
         text: Need to put together an engaging newsletter that’s worth reading? Work
@@ -65,14 +68,18 @@ sections:
           watch your subscriber list and open rates soar.  📨
         title: Newsletter Writing
       - icon: fa-hashtag
-        text: Social media is an integral part of every business’ online presence.
-          Engage me to create a relevant and engaging content calendar to help
+        text: Social media is an integral part of every business’ online presence. Hire
+          me to create a relevant and engaging content calendar that will help
           your brand meet and exceed all its social media marketing goals. 📱
         title: Social Media Marketing
       - icon: fa-graduation-cap
-        text: Let’s work together to empower you or your staff with the skill sets
+        text: >-
+          Let’s work together to empower you or your staff with the skill sets
           needed to transform your products into profit and your services into
           sales. 👩🏾‍🏫
+
+
+          I've facilitated training in collaboration with[CK Digital Academy](http://www.ckdigitalacademy.com), [Reevyse](http://www.reevyse.com), [Scale My Hustle](http://www.scalemyhustle.com) and [Google Business Group](http://gbglekki.org).
         title: Workshops & Training
       - icon: fa-microphone
         text: Putting together an event and need a speaker on digital marketing? Reach
@@ -83,7 +90,7 @@ sections:
     subtitle: |-
       Interested in working with me?
 
-      Here are the services I render:
+      Here are some of the services I render:
     title: What I do for money
     type: features
   - actions:
@@ -105,24 +112,24 @@ sections:
           I go. 🏞
         title: Nature Photography
       - icon: fa-plane
-        text: The world is so far and wide and I've only seen a tiny bit of it all. I
-          love travelling, but sadly I haven’t gotten to travel as much as I'd
-          like. I'm working on it though. ✈️
+        text: The world is so far and wide and I'd love to see it all. I enjoy
+          travelling a lot, but I haven’t gotten to travel as much as I'd like.
+          I'm working on it though. ✈️
         title: Travel
       - icon: fa-shopping-cart
-        text: Online shopping has my heart. I love how with just 3 to 10 taps, my order
-          is placed and on the way to me. My favourite app for shopping right
-          now is ASOS. 🛍
+        text: Online shopping has my heart. I love that I only need a few taps on my
+          phone, and my order is placed and on the way to me. My favourite app
+          for shopping right now is ASOS. 🛍
         title: Online Shopping
       - icon: fa-film
         text: I love movies, and I will watch pretty much anything, so far it interests
           me at first sight. However, I don’t like watching series. If it’s not
-          Stranger Things or Brooklyn 99, forget it. 🎬
+          Stranger Things, Money Heist or Brooklyn 99, forget it. 🎬
         title: Movies
       - icon: fa-twitter
         text: I get on my social media platforms (especially Twitter) to relax and catch
           up on what’s going on in the world around me. I love how I can learn
-          from and inform people in one place. 📱
+          and have fun in one place. 📱
         title: Social Media
     section_id: fun
     subtitle: >-
