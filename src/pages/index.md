@@ -73,13 +73,13 @@ sections:
           your brand meet and exceed all its social media marketing goals. 📱
         title: Social Media Marketing
       - icon: fa-graduation-cap
-        text: >-
-          Let’s work together to empower you or your staff with the skill sets
+        text: Let’s work together to empower you or your staff with the skill sets
           needed to transform your products into profit and your services into
-          sales. 👩🏾‍🏫
-
-
-          I've facilitated training in collaboration with[CK Digital Academy](http://www.ckdigitalacademy.com), [Reevyse](http://www.reevyse.com), [Scale My Hustle](http://www.scalemyhustle.com) and [Google Business Group](http://gbglekki.org).
+          sales. 👩🏾‍🏫I've facilitated training in collaboration with [CK
+          Digital Academy](http://www.ckdigitalacademy.com),
+          [Reevyse](http://www.reevyse.com), [Scale My
+          Hustle](http://www.scalemyhustle.com) and [Google Business
+          Group](http://gbglekki.org).
         title: Workshops & Training
       - icon: fa-microphone
         text: Putting together an event and need a speaker on digital marketing? Reach
