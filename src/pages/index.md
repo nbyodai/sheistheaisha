@@ -122,7 +122,7 @@ sections:
           for shopping right now is ASOS. 🛍
         title: Online Shopping
       - icon: fa-film
-        text: I love movies, and I will watch pretty much anything, so far it interests
+        text: I love movies and I will watch pretty much anything, so far it interests
           me at first sight. However, I don’t like watching series. If it’s not
           Stranger Things, Money Heist or Brooklyn 99, forget it. 🎬
         title: Movies
