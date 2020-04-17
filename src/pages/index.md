@@ -30,7 +30,7 @@ sections:
       I’m Aisha, a fun-loving content marketer, storyteller & branding enthusiast. 
 
 
-      I help brands break down complex ideas into simple content pieces that are easily digestible and solves real problems.
+      I help brands break complex ideas into simple content pieces that are easily digestible and solve real problems.
 
 
       My ideal process is “Agile Content Process” which encompasses research, content strategy, data analysis and iteration. 
