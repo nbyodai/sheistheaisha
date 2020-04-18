@@ -36,7 +36,7 @@ sections:
       My ideal process is “Agile Content Process” which encompasses research, content strategy, data analysis and iteration. 
 
 
-      In my 4+ years of experience, I've created magic with several remarkable brands. Some of them are: [Webcoupers](www.webcoupers.com), [Carbon](www.getcarbon.co), [Of A Kind Creatives](www.ofakindcreatives.com) (USA), [She Leads Africa](www.sheleadsafrica.org) and [CK Digital](www.ckdigital.net).
+      In my 4+ years of experience, I've created magic with several remarkable brands. Some of them are: [Webcoupers](//www.webcoupers.com), [Carbon](//www.getcarbon.co), [Of A Kind Creatives](//www.ofakindcreatives.com) (USA), [She Leads Africa](//www.sheleadsafrica.org) and [CK Digital](//www.ckdigital.net).
 
 
       I am passionate about diversity & inclusion, gender equality, and women empowerment & I enjoy sharing my thoughts via social media and talks.
@@ -76,10 +76,9 @@ sections:
         text: Let’s work together to empower you or your staff with the skill sets
           needed to transform your products into profit and your services into
           sales. I've facilitated training in collaboration with [CK Digital
-          Academy](http://www.ckdigitalacademy.com),
-          [Reevyse](http://www.reevyse.com), [Scale My
-          Hustle](http://www.scalemyhustle.com) and [Google Business
-          Group](http://gbglekki.org). 👩🏾‍🏫
+          Academy](//www.ckdigitalacademy.com), [Reevyse](www.reevyse.com),
+          [Scale My Hustle](//www.scalemyhusle.com) and [Google Business
+          Group](//www.gbglekki.org). 👩🏾‍🏫
         title: Workshops & Training
       - icon: fa-microphone
         text: Putting together an event and need a speaker on digital marketing? Reach
