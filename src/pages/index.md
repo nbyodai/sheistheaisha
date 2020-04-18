@@ -76,8 +76,8 @@ sections:
         text: Let’s work together to empower you or your staff with the skill sets
           needed to transform your products into profit and your services into
           sales. I've facilitated training in collaboration with [CK Digital
-          Academy](//www.ckdigitalacademy.com), [Reevyse](www.reevyse.com),
-          [Scale My Hustle](//www.scalemyhusle.com) and [Google Business
+          Academy](//www.ckdigitalacademy.com), [Reevyse](//www.reevyse.com),
+          [Scale My Hustle](//www.scalemyhustle.com) and [Google Business
           Group](//www.gbglekki.org). 👩🏾‍🏫
         title: Workshops & Training
       - icon: fa-microphone
@@ -145,7 +145,7 @@ sections:
         title: Address
       - text: hello@sheistheaisha.com
         title: Email
-        url: hello@sheistheaisha.com
+        url: //hello@sheistheaisha.com
     section_id: contact
     social:
       social_icons:
