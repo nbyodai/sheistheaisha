@@ -83,7 +83,7 @@ sections:
           sales. I've facilitated training in collaboration with
           <a href="//www.ckdigitalacademy.com" target="_blank">CK Digital Academy</a>,
           <a href="//www.reevyse.com" target="_blank">Reevyse</a>,
-          <a href="//www.www.scalemyhustle.com" target="_blank">Scale My Hustle</a>
+          <a href="//www.scalemyhustle.com" target="_blank">Scale My Hustle</a>
           and <a href="//www.gbglekki.org" target="_blank">Google Business Group</a>. 👩🏾‍🏫
         title: Workshops & Training
       - icon: fa-microphone
