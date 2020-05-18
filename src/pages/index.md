@@ -131,7 +131,7 @@ sections:
         title: Movies
       - icon: fa-twitter
         text: I get on my social media platforms (especially
-          [Twitter](www.twitter.com/sheistheaisha)) to relax and catch up on
+          [Twitter](//www.twitter.com/sheistheaisha)) to relax and catch up on
           what’s going on in the world around me. I love how I can learn and
           have fun in one place. 📱
         title: Social Media
