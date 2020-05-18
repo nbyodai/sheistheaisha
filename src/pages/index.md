@@ -24,7 +24,9 @@ sections:
     component: Intro
     section_id: about
     subtitle: >-
-      ![Aisha Owolabi](https://res.cloudinary.com/nbyodai/image/upload/c_scale,w_507/v1587311757/sheistheaisha.jpg "sheistheaisha")
+      ![Aisha
+      Owolabi](https://res.cloudinary.com/nbyodai/image/upload/c_scale,w_507/v1587311757/sheistheaisha.jpg
+      "sheistheaisha")
 
 
       I’m Aisha, a fun-loving content marketer, storyteller & branding enthusiast. 
@@ -51,44 +53,39 @@ sections:
     component: Features
     features_list:
       - icon: fa-cog
-        text:
-          Work with me to take your content strategy to the next level. I will
+        text: Work with me to take your content strategy to the next level. I will
           leverage my copywriting, storytelling, analytics, and content delivery
           skills to develop compelling, world-class content strategies
           guaranteed to increase your ROI. 📈
         title: Content Strategy
       - icon: fa-pencil
-        text:
-          Writing for websites and apps require a more technical understanding of
+        text: Writing for websites and apps require a more technical understanding of
           the product, along with basic knowledge of user experience, user
           psychology, marketing and SEO. It is a blend of art & science, and
           that is what I provide to my clients. 📝
         title: Content Development
       - icon: fa-envelope-open
-        text:
-          Need to put together an engaging newsletter that’s worth reading? Work
+        text: Need to put together an engaging newsletter that’s worth reading? Work
           with me to deliver relevant content to your audience periodically, and
           watch your subscriber list and open rates soar.  📨
         title: Newsletter Writing
       - icon: fa-hashtag
-        text:
-          Social media is an integral part of every business’ online presence. Hire
+        text: Social media is an integral part of every business’ online presence. Hire
           me to create a relevant and engaging content calendar that will help
           your brand meet and exceed all its social media marketing goals. 📱
         title: Social Media Marketing
       - icon: fa-graduation-cap
-        text:
-          Let’s work together to empower you or your staff with the skill sets
+        text: Let’s work together to empower you or your staff with the skill sets
           needed to transform your products into profit and your services into
-          sales. I've facilitated training in collaboration with
-          <a href="//www.ckdigitalacademy.com" target="_blank">CK Digital Academy</a>,
-          <a href="//www.reevyse.com" target="_blank">Reevyse</a>,
+          sales. I've facilitated training in collaboration with <a
+          href="//www.ckdigitalacademy.com" target="_blank">CK Digital
+          Academy</a>, <a href="//www.reevyse.com" target="_blank">Reevyse</a>,
           <a href="//www.scalemyhustle.com" target="_blank">Scale My Hustle</a>
-          and <a href="//www.gbglekki.org" target="_blank">Google Business Group</a>. 👩🏾‍🏫
+          and <a href="//www.gbglekki.org" target="_blank">Google Business
+          Group</a>. 👩🏾‍🏫
         title: Workshops & Training
       - icon: fa-microphone
-        text:
-          Putting together an event and need a speaker on digital marketing? Reach
+        text: Putting together an event and need a speaker on digital marketing? Reach
           out to me, and I’ll come by to share amazing digital nuggets with your
           audience. 🎤
         title: Speaking Engagements
@@ -108,14 +105,12 @@ sections:
     component: Features
     features_list:
       - icon: fa-cutlery
-        text:
-          I love trying new food, amazing cocktails, and experiencing different
+        text: I love trying new food, amazing cocktails, and experiencing different
           restaurants. Sometimes, I find myself daydreaming about food. It's
           that serious.🍹
         title: Restaurant Hopping
       - icon: fa-camera
-        text:
-          One of my favourite phrases is this one; “The earth has music for those
+        text: One of my favourite phrases is this one; “The earth has music for those
           who listen.” I love nature and documenting the beauty of it everywhere
           I go. 🏞
         title: Nature Photography
@@ -125,22 +120,20 @@ sections:
           I'm working on it though. ✈️
         title: Travel
       - icon: fa-shopping-cart
-        text:
-          Online shopping has my heart. I love that I only need a few taps on my
+        text: Online shopping has my heart. I love that I only need a few taps on my
           phone, and my order is placed and on the way to me. My favourite app
           for shopping right now is ASOS. 🛍
         title: Online Shopping
       - icon: fa-film
-        text:
-          I love movies and I will watch pretty much anything, so far it interests
+        text: I love movies and I will watch pretty much anything, so far it interests
           me at first sight. However, I don’t like watching series. If it’s not
           Stranger Things, Money Heist or Brooklyn 99, forget it. 🎬
         title: Movies
       - icon: fa-twitter
-        text:
-          I get on my social media platforms (especially Twitter) to relax and catch
-          up on what’s going on in the world around me. I love how I can learn
-          and have fun in one place. 📱
+        text: I get on my social media platforms (especially
+          [Twitter](www.twitter.com/sheistheaisha)) to relax and catch up on
+          what’s going on in the world around me. I love how I can learn and
+          have fun in one place. 📱
         title: Social Media
     section_id: fun
     subtitle: >-
