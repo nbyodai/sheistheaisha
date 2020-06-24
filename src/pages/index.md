@@ -161,7 +161,7 @@ sections:
           url: //www.instagram.com/sheistheaisha
         - icon: fa-linkedin
           title: LinkedIn
-          url: //www.linkedin.com/in/aisha-owolabi
+          url: //www.linkedin.com/in/sheistheaisha
         - icon: fa-medium
           title: Medium
           url: //www.medium.com/@sheistheaisha
