@@ -29,20 +29,20 @@ sections:
       "sheistheaisha")
 
 
-      I’m Aisha, a fun-loving content marketer, storyteller & branding enthusiast. 
+      I’m Aisha, a Digital Content Marketer currently working remotely from Lagos, Nigeria. 🇳🇬
 
 
-      I help brands break complex ideas into simple content pieces that are easily digestible and solve real problems.
+      I help brands break complex ideas into simple content pieces while communicating effectively.
 
 
-      My ideal process is “Agile Content Process” which encompasses research, content strategy, data analysis and iteration. 
+      My ideal process is the **Agile Content Process**, which encompasses research, content strategy, data analysis, and iteration.
 
 
-      In my 4+ years of experience, I've created magic with several remarkable brands. Some of them are: <a href="//www.webcoupers.com/" target="_blank">Webcoupers</a>, <a href="//www.getcarbon.co" target="_blank">Carbon</a>, <a href="//www.ofakindcreatives.com" target="_blank">Of A Kind Creatives</a> (USA), <a href="//www.sheleadsafrica.org" target="_blank">She Leads Africa</a> and <a href="//www.ckdigital.net" target="_blank">CK Digital</a>.
+      I've worked with several remarkable brands in the last five years to tell captivating stories and increase brand value. Some of them are: <a href="//www.webcoupers.com/" target="_blank">Webcoupers</a>, <a href="//www.getcarbon.co" target="_blank">Carbon</a>, <a href="//www.ofakindcreatives.com" target="_blank">Of A Kind Creatives</a> (USA), <a href="//www.sheleadsafrica.org" target="_blank">She Leads Africa</a> and <a href="//www.ckdigital.net" target="_blank">CK Digital</a>.
 
 
       I am passionate about diversity & inclusion, gender equality, and women empowerment & I enjoy sharing my thoughts via social media and talks.
-    title: "Hey there! "
+    title: Hi! Welcome to my website.
     type: intro
   - actions:
       - is_primary: true
